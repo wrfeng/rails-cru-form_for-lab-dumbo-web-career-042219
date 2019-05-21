@@ -1,0 +1,4 @@
+<h1><%= @song.name %></h1>
+<%= link_to @song.artist.name.to_s, artist_path(@song.artist) %><br>
+<%= link_to @song.genre.name.to_s, genre_path(@song.genre) %> 
+
